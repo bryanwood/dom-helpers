@@ -1,6 +1,13 @@
 {
   "name": "@bryanwood/dom-helpers",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "version": "1.0.1",
+  "license": "MIT",
+  "main":"./lib/index.js",
+  "types":"./lib/index.d.ts",
+  "devDependencies": {
+    "typescript": "^2.1.5"
+  },
+  "scripts":{
+    "build":"tsc"
+  }
 }
